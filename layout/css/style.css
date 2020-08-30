@@ -53,6 +53,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	position: relative;
 	width: 100%;
 	height: auto;
+	/*background-color: #1E6BAD;*/
 	
 }
 
@@ -67,6 +68,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding-bottom: 90px;
 }
 
+.slider {
+	width: 60%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.main-content {
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.main-content h1 {
+	font-size: 26px;
+	text-align: center;
+}
+
+.show-img img{
+	width: 300px;
+	height: 200px;
+}
 
 
 /*------------ content finish---------*/
@@ -76,4 +98,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	height: 50px;
 	background-color: #000;
 	margin-top: -50px;
+	padding-top: 2px;
+}
+
+.main__footer h1 {
+	color:#fff;
+	text-align: center;
+
 }
